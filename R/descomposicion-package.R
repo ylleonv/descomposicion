@@ -4,7 +4,4 @@
 #' @export Location
 #' @importFrom Rcpp sourceCpp
 ## usethis namespace: end
-NULL
-
-Rcpp::loadModule(module = "RcppLocationEx", TRUE)
-
+"_PACKAGE"

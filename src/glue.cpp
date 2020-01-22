@@ -2,7 +2,6 @@
 
 #include <Rcpp.h>
 #include "Location.h"
-using namespace Rcpp;
 
 // Expose (some of) the Student class
 RCPP_MODULE(RcppLocationEx){
