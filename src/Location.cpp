@@ -10,13 +10,3 @@ void Location::print(){
   Rcpp::Rcout << "Lorena = " << x << std::endl;
   Rcpp::Rcout << "y = " << y << std::endl;
 }
-
-RCPP_MODULE(locationmodule){
-  Rcpp::class_<Location>( "Location" )
-  .constructor("documentation for default constructor")
-  .constructor<int,int>("documentation for constructor")
-  .field( "x", &Location::x, "documentation for x")
-  .field( "y", &Location::y, "documentation for y")
-  .method( "print", &Location::print, "documentation for print")
-  ;
-}
