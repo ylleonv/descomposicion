@@ -5,7 +5,7 @@
 using namespace Rcpp;
 
 // Expose (some of) the Student class
-RCPP_MODULE(locationmodule){
+RCPP_MODULE(RcppLocationEx){
   Rcpp::class_<Location>( "Location" )
   .constructor("documentation for default constructor")
   .constructor<int,int>("documentation for constructor")

@@ -1,7 +1,8 @@
 ## usethis namespace: start
 #' @useDynLib descomposicion, .registration = TRUE
-#' @import Rcpp
+#' @import methods Rcpp
+#' @export Location
 ## usethis namespace: end
 NULL
 
-Rcpp::loadModule(module = "locationmodule", TRUE)
+Rcpp::loadModule(module = "RcppLocationEx", TRUE)

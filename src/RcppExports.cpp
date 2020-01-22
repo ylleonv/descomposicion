@@ -16,11 +16,11 @@ BEGIN_RCPP
 END_RCPP
 }
 
-RcppExport SEXP _rcpp_module_boot_locationmodule();
+RcppExport SEXP _rcpp_module_boot_RcppLocationEx();
 
 static const R_CallMethodDef CallEntries[] = {
     {"_descomposicion_rcpp_hello_world", (DL_FUNC) &_descomposicion_rcpp_hello_world, 0},
-    {"_rcpp_module_boot_locationmodule", (DL_FUNC) &_rcpp_module_boot_locationmodule, 0},
+    {"_rcpp_module_boot_RcppLocationEx", (DL_FUNC) &_rcpp_module_boot_RcppLocationEx, 0},
     {NULL, NULL, 0}
 };
 
