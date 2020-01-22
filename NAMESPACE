@@ -3,4 +3,5 @@
 export(Location)
 import(Rcpp)
 import(methods)
+importFrom(Rcpp,sourceCpp)
 useDynLib(descomposicion, .registration = TRUE)
