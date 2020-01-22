@@ -1,0 +1,5 @@
+library(devtools);library(tidyverse);library(fs);library(Rcpp);library(RcppArmadillo);library(RcppEigen)
+library(dplyr); library(tidyr); library(nnet); library(varhandle);library(catdata); library(magic)
+library(VGAM);library(dobson)
+
+rcpp_hello_world()
