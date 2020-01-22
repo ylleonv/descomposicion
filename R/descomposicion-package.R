@@ -7,3 +7,5 @@
 NULL
 
 Rcpp::loadModule(module = "RcppLocationEx", TRUE)
+
+loadModule("RcppLocationEx")
